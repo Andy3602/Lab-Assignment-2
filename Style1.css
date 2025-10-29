@@ -134,7 +134,14 @@ button:hover {
 .top-button:hover {
   background-color: #aa0000;
 }
-
+/* Footer */
+footer {
+  background-color: #930000;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
 /* Accessibility Skip Link */
 .skip-link {
   position: absolute;
@@ -148,4 +155,5 @@ button:hover {
 
 .skip-link:focus {
   top: 0;
+
 }
