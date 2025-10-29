@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Andy Keisam - Portfolio</title>
+  <link rel="stylesheet" href="Style1.css">
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="me.jpg" alt="Profile picture of Andy Keisam" class="profile-img">
+      <p>Welcome to my portfolio! I am learning web developement and this is my first portfolio website.</p>
+    </section>
+
+    <section id="skills">
+      <h2>My Skills</h2>
+      <table>
+        <tr>
+          <th>Skill</th>
+          <th>Level</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Proficient</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Intermediate</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Learning</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>A simple blog layout that looks like Medium built only With HTML and CSS.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <p>A creative greeting card webpage designed with HTML structure and CSS styling.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label>Name:
+          <input type="text" name="name" required placeholder="Enter your name">
+        </label><br><br>
+        <label>Email:
+          <input type="email" name="email" required placeholder="Enter your email">
+        </label><br><br>
+        <label>Message:
+          <textarea name="message" required placeholder="Write your message"></textarea>
+        </label><br><br>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <a href="#top" class="top-button">↑ Back to Top</a>
+
+  </main>
+
+</body>
+</html>
